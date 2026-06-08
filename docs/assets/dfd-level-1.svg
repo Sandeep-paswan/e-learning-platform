@@ -1,0 +1,79 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" fill="#F8FAFC"/>
+  <text x="600" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0F172A">Data Flow Diagram - Level 1</text>
+
+  <rect x="50" y="120" width="180" height="90" rx="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="140" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1E3A8A">Student</text>
+  <text x="140" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1E3A8A">User of platform</text>
+
+  <rect x="50" y="600" width="180" height="90" rx="18" fill="#FCE7F3" stroke="#DB2777" stroke-width="2"/>
+  <text x="140" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#9D174D">Admin</text>
+  <text x="140" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9D174D">Platform manager</text>
+
+  <rect x="325" y="95" width="250" height="110" rx="20" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="450" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#92400E">1.0 Authentication</text>
+  <text x="450" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#92400E">Register / Login / Session</text>
+
+  <rect x="325" y="255" width="250" height="110" rx="20" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="450" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#166534">2.0 Course Module</text>
+  <text x="450" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#166534">List / Filter / Details</text>
+
+  <rect x="325" y="415" width="250" height="110" rx="20" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2"/>
+  <text x="450" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#5B21B6">3.0 Video Learning</text>
+  <text x="450" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#5B21B6">Free embedded video access</text>
+
+  <rect x="325" y="575" width="250" height="110" rx="20" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+  <text x="450" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#075985">4.0 Dashboard / Admin</text>
+  <text x="450" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#075985">Overview and statistics</text>
+
+  <rect x="685" y="110" width="210" height="120" rx="18" fill="#FFFFFF" stroke="#64748B" stroke-width="2"/>
+  <text x="790" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">D1 User Data</text>
+  <text x="790" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">name, email, phone,</text>
+  <text x="790" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">passwordHash, role,</text>
+  <text x="790" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">enrolledCourses</text>
+
+  <rect x="685" y="320" width="210" height="140" rx="18" fill="#FFFFFF" stroke="#64748B" stroke-width="2"/>
+  <text x="790" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">D2 Course Data</text>
+  <text x="790" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">title, description,</text>
+  <text x="790" y="416" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">thumbnail, duration,</text>
+  <text x="790" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">price, lessons,</text>
+  <text x="790" y="464" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">videoUrl, modules</text>
+
+  <rect x="685" y="560" width="210" height="120" rx="18" fill="#FFFFFF" stroke="#64748B" stroke-width="2"/>
+  <text x="790" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">D3 Overview Data</text>
+  <text x="790" y="632" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">dashboard snapshot,</text>
+  <text x="790" y="656" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">admin stats</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <line x1="230" y1="160" x2="325" y2="150" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="265" y="136" font-family="Arial, sans-serif" font-size="14" fill="#334155">registration / login input</text>
+
+  <line x1="230" y1="170" x2="325" y2="300" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="245" y="250" font-family="Arial, sans-serif" font-size="14" fill="#334155">browse, search, filter</text>
+
+  <line x1="230" y1="180" x2="325" y2="470" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="235" y="420" font-family="Arial, sans-serif" font-size="14" fill="#334155">watch free video</text>
+
+  <line x1="230" y1="645" x2="325" y2="630" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="240" y="612" font-family="Arial, sans-serif" font-size="14" fill="#334155">overview request</text>
+
+  <line x1="575" y1="150" x2="685" y2="170" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="685" y1="195" x2="575" y2="180" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="590" y="130" font-family="Arial, sans-serif" font-size="14" fill="#334155">store and read user records</text>
+
+  <line x1="575" y1="310" x2="685" y2="375" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="685" y1="410" x2="575" y2="345" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="14" fill="#334155">course data fetch</text>
+
+  <line x1="575" y1="470" x2="685" y2="415" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="590" y="515" font-family="Arial, sans-serif" font-size="14" fill="#334155">video-linked free course data</text>
+
+  <line x1="575" y1="630" x2="685" y2="620" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="685" y1="600" x2="575" y2="600" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="600" y="575" font-family="Arial, sans-serif" font-size="14" fill="#334155">overview statistics</text>
+</svg>
